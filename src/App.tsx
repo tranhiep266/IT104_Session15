@@ -7,9 +7,8 @@ import Ex3 from "./component/Ex3.tsx";
 import Ex4 from "./component/Ex4.tsx";
 import Ex5 from "./component/Ex5/Ex5.tsx";
 import ListPost from "./component/Ex6/ListPost.tsx";
-// import Ex7 from "./component/Ex7.tsx";
-// import Ex8 from "./component/Ex8.tsx";
-// import Ex9 from "./component/Ex9.tsx";
+import Ex7 from "./component/Ex7.tsx";
+import Ex8 from "./component/Ex8.tsx";
 function App() {
 
 
@@ -24,9 +23,8 @@ function App() {
                     <Route path="/ex4" element={<Ex4 />} />
                     <Route path="/ex5" element={<Ex5 />} />
                     <Route path="/ex6" element={<ListPost />} />
-                    {/*<Route path="/ex7" element={<Ex7 />} />*/}
-                    {/*<Route path="/ex8" element={<Ex8 />} />*/}
-                    {/*<Route path="/ex9" element={<Ex9 />} />*/}
+                    <Route path="/ex7" element={<Ex7 />} />
+                    <Route path="/ex8" element={<Ex8 />} />
 
                     <Route path="*" element={<h2>Trang không tồn tại</h2>} />
                 </Routes>
